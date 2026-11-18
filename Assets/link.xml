@@ -1,0 +1,6 @@
+<!-- Methods the page calls through SendMessage are invisible to the linker, so High stripping would drop them. -->
+<linker>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="YTGameSDK.YTGameWrapper" preserve="all"/>
+  </assembly>
+</linker>
